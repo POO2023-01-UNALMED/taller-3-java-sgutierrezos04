@@ -50,6 +50,12 @@ public class TV{
     public int getCanal(){
         return canal;
     }
+    public static int getNumTV(){
+        return numTV;
+    }
+    public static void setNumTV(int numTV){
+        TV.numTV=numTV;
+    }
     public void turnOn(){
         estado=true;
     }
